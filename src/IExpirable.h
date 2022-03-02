@@ -8,6 +8,10 @@
 
 class IExpirable {
 public:
+    virtual ~IExpirable() {
+
+    }
+
     virtual std::string expire() const = 0;
 };
 #endif //SOLID_01_ISP_IEXPIRABLE_H

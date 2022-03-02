@@ -8,6 +8,10 @@
 
 class IShippable {
 public:
+    virtual ~IShippable() {
+
+    }
+
     virtual std::string ship() const = 0;
 };
 #endif //SOLID_01_ISP_ISHIPPABLE_H

@@ -8,6 +8,10 @@
 
 class IReplaceable {
 public:
+    virtual ~IReplaceable() {
+
+    }
+
     virtual std::string replace() const = 0;
 };
 
